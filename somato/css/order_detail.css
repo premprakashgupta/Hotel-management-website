@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.col{
+    padding: 1rem;
+}
+.container{
+    background-color: #f9f9f9;
+    background-image: url(../image/summary-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container .upper_section{
+/*
+    width: 100%;
+    height: 40vh;
+    background-color: red;
+    margin: 0;
+*/
+}
+.container .upper_section .waiter_pic{
+    width: 100%;
+    height: 100%;
+/*    background-color: red;*/
+    padding: 2rem;
+}
+.container .upper_section .waiter_pic img{
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+.container .upper_section .waiter_detail{
+    padding: 2rem;
+}
+.container .upper_section .waiter_detail ul{
+    width: 100%;
+    height: 100%;
+    
+}
+.container .upper_section .waiter_detail ul li{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: #ccc;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.container .upper_section .waiter_detail ul li .approved{
+    width: 100px;
+    height: 100px;
+    background-image: url(../image/approved-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .lower_section{
+/*
+    width: 100%;
+    height: 50vh;
+*/
+/*    background-color: yellow;*/
+}
+#order_id{
+    width: 150px;
+    height: 35px;
+    background-color: crimson;
+    display: block;
+   position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    color: #fff;
+}
+

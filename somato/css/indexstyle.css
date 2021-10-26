@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*    font-family: "poppins","sans-serif";*/
+    list-style: none;
+}
+
+a {
+    color: #ccc;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.4)), url(../image/Screenshot.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-fluid header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(51, 51, 51, 0.4);
+}
+
+.container-fluid header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid header nav navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-fluid header nav navbar ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid header nav navbar ul li {
+    padding: .3rem;
+    margin: 0 .5rem;
+    /*    background-color: green;*/
+}
+
+.container-fluid header nav navbar ul li a {
+    width: auto;
+    height: auto;
+    color: #fff;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.container-fluid header nav navbar .logo {
+    /*    background-color: yellow;*/
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: chocolate;
+}
+
+section {
+    width: 100%;
+    height: calc(100vh - 150px);
+    box-sizing: border-box;
+    display: flex;
+pointer-events: none;
+}
+
+section .heading_tag {
+    flex-basis: 60%;
+    width: 100%;
+    height: 100%;
+    /*    background-color: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+section .famous_dish {
+    flex-basis: 40%;
+    width: 100%;
+    height: 100%;
+    /*    background-color: green;*/
+}
+
+section .famous_dish .famous_dish_box {
+    width: 75%;
+    height: 75%;
+    /*    background-color: #fff;*/
+    /*    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);*/
+    position: relative;
+    background-image: linear-gradient(135deg, #fff, transparent 50%);
+}
+
+section .famous_dish .famous_dish_box img {
+    width: 100%;
+    height: 100%;
+    /*    object-fit: cover;*/
+    display: block;
+    transition: .5s;
+
+}
+
+section .famous_dish .famous_dish_box .food_name_tag {
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    clip-path: polygon(25% 0%, 75% 0, 100% 100%, 0% 100%);
+    text-align: center;
+    color: #fff;
+}
+
+section .famous_dish .famous_dish_box .food_name_price {
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    bottom: 0;
+    right: 0;
+    background-color: brown;
+    clip-path: polygon(0% 0%, 100% 0, 75% 100%, 25% 100%);
+    text-align: center;
+    color: #fff;
+}
+
+section .heading_tag .heading_tag_box {
+    width: auto;
+    height: auto;
+    /*    background-color: red;*/
+    margin-left: 5rem;
+}
+
+section .heading_tag .heading_tag_box span {
+    font-family: "poppins", 'sans-serif';
+    font-size: 2rem;
+    color: #dce31c;
+}
+
+section .heading_tag .heading_tag_box h1 {
+    padding: 4rem;
+    font-size: 5rem;
+    color: #f9f9f9;
+    pointer-events: none;
+}
+
+section .heading_tag .heading_tag_box p {
+    width: 50%;
+    height: auto;
+    background-image: linear-gradient(to right, brown, transparent);
+    margin-left: 9rem;
+    padding: 2rem;
+    color: aliceblue;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
